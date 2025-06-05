@@ -1,0 +1,28 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Go build outputs
+*.out
+
+# IDE/editor stuff
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated protobuf files (optional: only if you want to regenerate them every time)
+services/common/genproto/
+
+# Go modules cache (not needed in repo)
+go.sum
+
+image*.png
